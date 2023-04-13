@@ -1,0 +1,22 @@
+
+POST http://localhost:5000/api/skill
+Content-Type: application/json
+
+{"name": "PHP"}
+
+###
+
+GET http://localhost:5000/api/skill
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5000/api/skill/1
+Content-Type: application/json
+
+{"name": "PHP"}
+
+###
+
+DELETE http://localhost:5000/api/skill/1
+Content-Type: application/json

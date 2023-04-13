@@ -1,0 +1,24 @@
+
+POST http://localhost:5000/api/wilder/2/skill/1/grade
+Content-Type: application/json
+
+{
+    "grade": 8
+}
+
+###
+
+GET http://localhost:5000/api/wilder/1/skill/2/grade
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5000/api/wilder/1/skill/2/grade
+Content-Type: application/json
+
+{"grade": 3}
+
+###
+
+DELETE http://localhost:5000/api/wilder/1/skill/2/grade
+Content-Type: application/json
